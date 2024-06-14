@@ -31,8 +31,13 @@
 
 // implict function
 //normal function
-const additionn = (a, b) => {
-  return a + b;
-};
-//implict function
-const addit = (a, b) => a + b;
+// const additionn = (a, b) => {
+//   return a + b;
+// };
+// //implict function
+// const addit = (a, b) => a + b;
+
+//IIFE => immediately invoked functional expression
+(function () {
+  console.log("i am iffe");
+})();
